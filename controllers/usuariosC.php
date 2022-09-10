@@ -55,13 +55,16 @@
 		foreach($respuesta as $key => $value){
 			echo '<tr>
 	                <td>'.($key+1).'</td>
+					<td>'.($value["nombres"]).'</td>
+					<td>'.($value["paterno"]).'</td>
+					<td>'.($value["materno"]).'</td>
 	                <td>'.($value["usuario"]).'</td>
 	                <td>'.($value["clave"]).'</td>';
 	                
 	            echo ' <td>'.($value["rol"]).'</td>
 	                <td>
 	                  <div class="btn-group">
-                		<button class="btn btn-success EditarU" Uid="'.($value["id_usuario"]).'"><i class="fas fa-pencil-alt" data-bs-toggle="modal" data-bs-target="#EditarU"></i></button>
+                		<button class="btn btn-secondary EditarU" data-bs-toggle="modal" data-bs-target="#EditarU" Uid="'.($value["id_usuario"]).'"><i class="fas fa-pencil-alt" ></i></button>
                			<button class="btn btn-danger BorrarU" Uid="'.($value["id_usuario"]).'" ><i class="fa-solid fa-trash-can"></i></button>
             		  </div>
 	                </td>
@@ -76,7 +79,7 @@
 
 			$tablaDB = "usuario";
 
-			$datosC = array("usuario"=>$_POST["usuarioN"],"clave"=>$_POST["claveN"],"rol"=>$_POST["rolN"]);
+			$datosC = array("nombres"=>$_POST["nombresN"],"paterno"=>$_POST["paternoN"],"materno"=>$_POST["maternoN"],"usuario"=>$_POST["usuarioN"],"clave"=>$_POST["claveN"],"rol"=>$_POST["rolN"]);
 
 			$respuesta = UsuariosM::CrearUsuariosM($tablaDB,$datosC);
 
@@ -135,7 +138,7 @@
 
 			$tablaDB = "usuario";
 
-			$datosC = array("id_usuario"=>$_POST["Uid"],"usuario"=>$_POST["usuarioE"],"clave"=>$_POST["claveE"],"rol"=>$_POST["rolE"]);
+			$datosC = array("id_usuario"=>$_POST["Uid"],"nombres"=>$_POST["nombresE"],"paterno"=>$_POST["paternoE"],"materno"=>$_POST["maternoE"],"usuario"=>$_POST["usuarioE"],"clave"=>$_POST["claveE"],"rol"=>$_POST["rolE"]);
 
 			$respuesta = UsuariosM::ActualizarUsuariosM($tablaDB,$datosC);
 

@@ -1,0 +1,23 @@
+form h5{
+    color: #75868f;
+    font-family: "Poppins","Open Sans",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 100;
+    font-size: 0.80rem;
+    
+}
+.link-doc {
+    font-size: 1.4rem !important;
+    color: #6C1F2F;
+}
+.bg-search{
+    -webkit-box-shadow: 1px 1px 25px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 25px -3px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 25px -3px rgba(0,0,0,0.75);
+}
+.mainnav__menu .has-sub>.mininav-toggle.collapsed::after{
+    border-style: unset;
+}
+.fa{
+    width: 20px;
+    text-align: center;
+}
