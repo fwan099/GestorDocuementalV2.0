@@ -53,7 +53,7 @@
 		$respuesta = UsuariosM::VerUsuariosM($tablaDB);
 
 		foreach($respuesta as $key => $value){
-			echo '<tr>
+			echo '<tr class="text-center">
 	                <td>'.($key+1).'</td>
 					<td>'.($value["nombres"]).'</td>
 					<td>'.($value["paterno"]).'</td>
@@ -174,20 +174,40 @@
 		$respuesta = UsuariosM::VerPerfilM($tablaDB,$id);
 
 
-		echo '<tr>
-	                <td>'.($respuesta["usuario"]).'</td>
-	                <td>'.($respuesta["clave"]).'</td>
-	                <td>'.($respuesta["rol"]).'</td>';
+		echo '<div class="row g-3 TB">
+		<div class="col-12">
+			<label for="_dm-inputAddress01" class="form-label">Nombres</label>
+			<input id="_dm-inputAddress01" value="'.($respuesta["nombres"]).'" disabled type="text" class="form-control"  >
+		</div>
+		<div class="col-12">
+			<label for="_dm-inputAddress02" class="form-label">Apellido Paterno</label>
+			<input id="_dm-inputAddress02" value="'.($respuesta["paterno"]).'" disabled type="text" class="form-control" >
+		</div>
+		<div class="col-12">
+			<label for="_dm-inputAddress03" class="form-label">Apellido Materno</label>
+			<input id="_dm-inputAddress03" value="'.($respuesta["materno"]).'" disabled type="text" class="form-control" >
+		</div>
+		<div class="col-md-6">
+			<label for="_dm-inputEmail2" class="form-label">Usuario</label>
+			<input id="_dm-inputEmail2" value="'.($respuesta["usuario"]).'" disabled type="email" class="form-control">
+		</div>
 
+		<div class="col-md-6">
+			<label for="_dm-inputPassword2" class="form-label">Contraseña</label>
+			<input id="_dm-inputPassword2" value="'.($respuesta["clave"]).'" disabled type="password" class="form-control">
+		</div>
 
-	            echo '
-	                <td>
-	                  <div class="btn-group">
-	                     <button class="btn btn-success EditarU" Uid="'.($respuesta["id_usuario"]).'"><i class="fas fa-pencil-alt" data-bs-toggle="modal" data-bs-target="#EditarU"></i></button>
-	                    
-	                  </div>
-	                </td>
-              </tr>';
+		
+
+		<div class="col-12">
+			<label for="_dm-inputAddress2" class="form-label">Rol</label>
+			<input id="_dm-inputAddress2" value="'.($respuesta["rol"]).'" disabled type="text" class="form-control" placeholder="Apartment, studio, or floor">
+		</div>
+
+		<div class="col-12">
+			<button class="btn btn-success EditarU" Uid="'.($respuesta["id_usuario"]).'" data-bs-toggle="modal" data-bs-target="#EditarU">Editar Información</button>
+		</div>
+	</div>';
 	}
 
 	}

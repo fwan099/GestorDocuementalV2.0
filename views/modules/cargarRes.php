@@ -1,3 +1,16 @@
+<?php 
+
+if ($_SESSION["rol"] != "Administrador") {
+
+  echo '<script>
+        window.location ="inicio"
+
+  </script>';
+  
+}
+
+
+ ?>
 <section id="content" class="content">
 
             <div class="content__boxed">
@@ -6,7 +19,7 @@
 
                     <!-- Table with toolbar -->
                     <div class="card">
-                        <div class="card-header -4 mb-3">
+                        <div class="card-header ">
                             <h5 class="card-title mb-3">Resoluciones</h5>
                             <div class="row">
 
@@ -21,40 +34,16 @@
                                 </div>
                                 <!-- END : Left toolbar -->
 
-                                <!-- Right Toolbar -->
-                                <div class="col-md-6 d-flex gap-1 align-items-center justify-content-md-end mb-3">
-                                    <div class="form-group">
-                                        <input type="text" placeholder="Search..." class="form-control" autocomplete="off">
-                                    </div>
-                                    <div class="btn-group">
-                                        <button class="btn btn-icon btn-outline-light"><i class="demo-pli-download-from-cloud fs-5"></i></button>
-                                        <div class="btn-group dropdown">
-                                            <button class="btn btn-icon btn-outline-light dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
-                                                <span class="visually-hidden">Toggle Dropdown</span>
-                                            </button>
-                                            <ul class="dropdown-menu dropdown-menu-end">
-                                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Separated link</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- END : Right Toolbar -->
 
                             </div>
                         </div>
 
                         <div class="card-body">
                             <div class="table-responsive">
-                                <table class="table table-striped TB">
+                                <table class="table table-striped TB pb-4" id="resoluciones-table" style="width:100%">
                                     <thead>
                                         <tr class="text-center">
-                                            <th class="text-center">N° Resolucion</th>
+                                            <th class="text-center">Numero</th>
                                             <th>Fecha</th>
                                             <th>Motivo</th>
                                             <th>DNI</th>
@@ -91,23 +80,7 @@
                                 </table>
                             </div>
 
-                            <nav class="text-align-center mt-5" aria-label="Table navigation">
-                                <ul class="pagination justify-content-center">
-                                    <li class="page-item disabled">
-                                        <a class="page-link">Previous</a>
-                                    </li>
-                                    <li class="page-item active" aria-current="page">
-                                        <span class="page-link">1</span>
-                                    </li>
-                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                    <li class="page-item disabled"><a class="page-link" href="#">...</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">5</a></li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">Next</a>
-                                    </li>
-                                </ul>
-                            </nav>
+
                         </div>
                     </div>
                     <!-- END : Table with toolbar -->

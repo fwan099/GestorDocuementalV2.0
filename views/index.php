@@ -11,7 +11,7 @@ session_start();
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
     <meta name="description" content="Nifty is a responsive admin dashboard template based on Bootstrap 5 framework. There are a lot of useful components.">
     <title>SGRD 2.0</title>
-
+    <link rel="shortcut icon" href="./views/public/img/logo.gif" />
     <!-- STYLESHEETS -->
     <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--- -->
 
@@ -32,6 +32,8 @@ session_start();
     <!-- Demo purpose CSS [ DEMO ] -->
     <link rel="stylesheet" href="./views/assets/css/demo-purpose/demo-settings.min.css">
     <link rel="stylesheet" href="./views/public/css/estilos.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet"  href="https://cdn.datatables.net/1.11.4/css/dataTables.bootstrap5.min.css">
     <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~---
 
     [ REQUIRED ]
@@ -96,8 +98,10 @@ session_start();
     <!-- Nifty Settings [ DEMO ] -->
     <script src="./views/assets/js/demo-purpose-only.js" defer></script>
 
+    <script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
 
-
+    <script src="https://cdn.datatables.net/1.11.4/js/dataTables.bootstrap5.min.js"></script>
+    <script type="text/javascript" src="./views/public/js/paginacion.js"></script>
 
 
 </body>

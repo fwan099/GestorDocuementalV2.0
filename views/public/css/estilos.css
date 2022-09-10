@@ -21,3 +21,58 @@ form h5{
     width: 20px;
     text-align: center;
 }
+#perfilmy{
+    box-shadow: none !important;
+}
+.dataTables_scrollBody::-webkit-scrollbar {
+    width: 4px;     /* Tamaño del scroll en vertical */
+    height: 8px;    /* Tamaño del scroll en horizontal */
+/* Ocultar scroll */
+}
+
+.dataTables_scrollBody::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+.dataTables_scrollBody::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Cambiamos el fondo cuando esté en active */
+.dataTables_scrollBody::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+}
+/* Ponemos un color de fondo y redondeamos las esquinas del track */
+.dataTables_scrollBody::-webkit-scrollbar-track {
+    background: #e1e1e1;
+    border-radius: 4px;
+}
+
+/* Cambiamos el fondo cuando esté en active o hover */
+.dataTables_scrollBody::-webkit-scrollbar-track:hover,
+.dataTables_scrollBody::-webkit-scrollbar-track:active {
+  background: #d4d4d4;
+}
+
+.dataTables_wrapper .row:nth-child(3) div:nth-child(2){
+width: 100%;
+}
+.pagination{
+    justify-content: center !important;
+}
+.dataTables_wrapper .row:nth-child(1){
+display: none;
+}
+tbody,  tfoot, th, thead {
+    border-color: white !important;
+    border-style: solid !important;
+    border-width: 0 !important;
+
+    
+}
+.table{
+    padding-bottom: 0% !important;
+}

@@ -122,7 +122,7 @@ class UsuariosM extends ConexionDB{
 
 	static public function VerPerfilM($tablaDB,$id){
 
-		$pdo = ConexionDB::cDB()->prepare("SELECT id_usuario, usuario, clave,rol FROM $tablaDB WHERE id_usuario=:id_usuario");
+		$pdo = ConexionDB::cDB()->prepare("SELECT * FROM $tablaDB WHERE id_usuario=:id_usuario");
 
 		$pdo->bindParam(":id_usuario",$id,PDO::PARAM_INT);
 

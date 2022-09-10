@@ -1,3 +1,23 @@
+<?php
+ if($_SESSION["rol"] != "Administrador"){
+    echo '
+
+ <style type="text/css">
+
+
+
+
+  .mainnav__menu li:nth-child(3) {display:none;}
+  .mainnav__menu li:nth-child(4) {display:none;}
+  .mainnav__menu li:nth-child(5) {display:none;}
+ 
+ </style>
+    ';
+
+
+ }
+
+?>
 <nav id="mainnav-container" class="mainnav">
             <div class="mainnav__inner">
 
@@ -37,7 +57,7 @@
                             </li>
                             <!-- END : Link with submenu -->
                             <!-- Link with submenu -->
-                            <li class="nav-item has-sub">
+                            <li class="nav-item has-sub" id="subir_res">
 
                                 <a href="cargarRes" class=" nav-link"><i class="fa fa-cloud-upload "></i>
                                     <span class="nav-label ms-1">Subir Resolución</span>

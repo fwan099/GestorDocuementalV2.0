@@ -1,5 +1,6 @@
     <!-- PAGE CONTAINER -->
     <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
 <div id="root" class="root mn--max hd--expanded">
 <header class="header">
             <div class="header__inner">
@@ -10,11 +11,11 @@
 
                         <!-- Brand logo -->
                         <a href="./index.html" class="brand-img stretched-link">
-                            <img src="./views/assets/img/logo.svg" alt="Nifty Logo" class="Nifty logo" width="40" height="40">
+                            <img src="./views/public/img/logo.gif" alt="Nifty Logo" class="Nifty logo" width="40" height="40">
                         </a>
 
                         <!-- Brand title -->
-                        <div class="brand-title">Nifty</div>
+                        <div class="brand-title">UGEL Yunguyo</div>
 
                         <!-- You can also use IMG or SVG instead of a text element. -->
 
@@ -68,9 +69,7 @@
                                             <a href="perfil" class="list-group-item list-group-item-action">
                                                 <i class="demo-pli-male fs-5 me-2"></i> Mi Perfil
                                             </a>
-                                            <a href="#" class="list-group-item list-group-item-action">
-                                                <i class="demo-pli-gear fs-5 me-2"></i> Ajustes
-                                            </a>
+
                                             <a href="salir" class="list-group-item list-group-item-action">
                                                 <i class="demo-pli-unlock fs-5 me-2"></i> Salir
                                             </a>
