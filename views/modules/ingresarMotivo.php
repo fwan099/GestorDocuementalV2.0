@@ -110,7 +110,7 @@ if ($_SESSION["rol"] != "Administrador") {
 
           <div class="modal-footer">
             <button type="submit" class="btn btn-primary">Crear</button>
-             <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+             <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
             
           </div>
             <?php 
@@ -154,7 +154,7 @@ if ($_SESSION["rol"] != "Administrador") {
 
           <div class="modal-footer">
             <button type="submit" class="btn btn-primary">Gurdar Cambios</button>
-             <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+             <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
             
           </div>
            <?php 

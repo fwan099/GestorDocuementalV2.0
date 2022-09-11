@@ -9,7 +9,7 @@
                         <div class="card-header -4 mb-3">
                             <h5 class="card-title mb-3">Busqueda de Resoluciones Directorales</h5>
                             <div class="row justify-content-center">
-                                <form method="post" role="form" enctype="multipart/form-data" class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 bg-search p-3 rounded">
+                                <form method="post" role="form" enctype="multipart/form-data" class="col-11 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 bg-search p-3 rounded">
                                     <div class=" mb-2 justify-content-center">
                                     <div class="form-check flex-grow-1 ">
                                         <input class="form-check-input" type="radio" name="tipo-buscar" id="flexRadioDefault1" value="DNI">

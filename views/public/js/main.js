@@ -16,7 +16,7 @@ $(".TB").on("click",".EditarU", function(){
     datos.append("Uid",Uid);
 
     $.ajax({
-        url :"Ajax/usuariosA.php",
+        url :"ajax/usuariosA.php",
         method:"POST",
         data: datos,
         cache:false,
@@ -82,7 +82,7 @@ $(".TB").on("click",".EditarR", function(){
     datos.append("Uid",Uid);
 
     $.ajax({
-        url :"Ajax/resolucionA.php",
+        url :"ajax/resolucionA.php",
         method:"POST",
         data: datos,
         cache:false,
@@ -118,7 +118,7 @@ $(".TB").on("click",".EditarM", function(){
     datos.append("Uid",Uid);
 
     $.ajax({
-        url :"Ajax/motivosA.php",
+        url :"ajax/motivosA.php",
         method:"POST",
         data: datos,
         cache:false,

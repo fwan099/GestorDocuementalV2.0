@@ -10,7 +10,7 @@
                     <div class="brand-wrap">
 
                         <!-- Brand logo -->
-                        <a href="./index.html" class="brand-img stretched-link">
+                        <a href="#" class="brand-img stretched-link">
                             <img src="./views/public/img/logo.gif" alt="Nifty Logo" class="Nifty logo" width="40" height="40">
                         </a>
 

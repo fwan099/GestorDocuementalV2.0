@@ -1,5 +1,5 @@
 <?php
-require_once "ConexionDB.php";
+require_once "conexionDB.php";
 class UsuariosM extends ConexionDB{
 	static public function IngresarUsuariosM($datosC, $tablaDB){
 		$pdo = ConexionDB::cDB()->prepare("SELECT * FROM $tablaDB WHERE usuario=:usuario");

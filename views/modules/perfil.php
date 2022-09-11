@@ -88,7 +88,7 @@
 
           <div class="modal-footer">
             <button type="submit" class="btn btn-primary">Guardar</button>
-             <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+             <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
             
           </div>
           <?php 

@@ -15,9 +15,10 @@
                 <div class="row">
                         <div class="col-sm-6 col-md-3 mb-3 ">
                             <div class="card h-100 bg-info">
-                                <div class="card-body">
-
-                                    <h5 class="card-title text-white">Button sizes</h5>
+                                <div class="card-body d-flex d-md-block text-center justify-content-between display-5  text-white ">
+                                    
+                                 <p class="card-title text-white m-1 fs-5">Motivo de Resolucion: <span class="fs-3">6898</span></p>
+                                 <i class="fa fa-book" aria-hidden="true"></i>
 
 
                                 </div>
@@ -25,9 +26,9 @@
                         </div>
                         <div class="col-sm-6 col-md-3 mb-3">
                             <div class="card h-100 bg-success">
-                                <div class="card-body">
-
-                                    <h5 class="card-title text-white">Button sizes</h5>
+                                <div class="card-body d-flex d-md-block text-center  justify-content-between display-5 text-white">
+                                     <p class="card-title text-white m-1 fs-5">Motivo de Resolucion: <span class="fs-3">257</span></p>
+                                     <i class="fa fa-book" aria-hidden="true"></i>
 
                                     <!-- Button sizes-->
                     
@@ -38,9 +39,9 @@
                         </div>
                         <div class="col-sm-6 col-md-3 mb-3">
                             <div class="card h-100 bg-warning">
-                                <div class="card-body ">
-
-                                    <h5 class="card-title text-white">Button sizes</h5>
+                                <div class="card-body d-flex d-md-block text-center  justify-content-between display-5 text-white">
+                                <p class="card-title text-white m-1 fs-5">Motivo de Resolucion: <span class="fs-3">147</span></p>
+                                <i class="fa fa-book" aria-hidden="true"></i>
 
                                     <!-- Button sizes-->
            
@@ -49,17 +50,16 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-md-3 mb-3">
-                            <div class="card h-100 bg-danger">
-                                <div class="card-body">
-
-                                    <h5 class="card-title text-white">Button sizes</h5>
-
-                                    <!-- Button sizes-->
-             
-                                    <!-- END : Button sizes-->
+                        <div class="col-sm-6 col-md-3 mb-3 ">
+                            <a href="#" class="text-decoration-none" >
+                                <div class="card h-100 bg-danger">
+                                    <div class="card-body d-flex d-md-block text-center  justify-content-between display-5 text-white"">
+                                        <p class="card-title text-white m-1 fs-5">Manual de Usario</p>
+                                        <i class="fa fa-book" aria-hidden="true"></i>
+                                        
 
                                 </div>
+                            </a>
                             </div>
                         </div>
                     </div>

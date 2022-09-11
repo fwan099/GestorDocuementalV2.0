@@ -128,11 +128,11 @@ if ($_SESSION["rol"] != "Administrador") {
                 <input type="text" class="form-control " name="dniN" id="dniN" autocomplete="off" >
               </div>
               <div class="d-flex flex-grow-1">
-                <div class="form-group mb-2  me-2 flex-grow-1">
+                <div class="form-group mb-2 w-50  me-2 flex-grow-1">
                 <h5>N° Resolucion</h5>
                 <input type="text" class="form-control " name="numeroN" required autocomplete="off">
               </div>
-              <div class="form-group mb-2 flex-grow-1">
+              <div class="form-group mb-2 w-50 flex-grow-1">
                 <h5 class="">Fecha</h5>
                 <input type="date" class="form-control " name="fechaN" required >
                 

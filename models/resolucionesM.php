@@ -1,6 +1,6 @@
 <?php 
 
-require_once "ConexionDB.php";
+require_once "conexionDB.php";
 
  class ResolucionM extends ConexionDB{
 

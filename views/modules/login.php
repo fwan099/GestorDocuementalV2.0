@@ -1,4 +1,5 @@
-        <!-- CONTENTS -->
+        
+    <!-- CONTENTS -->
         <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <section id="content" class="content">
            
