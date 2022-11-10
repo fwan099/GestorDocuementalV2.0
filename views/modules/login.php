@@ -5,7 +5,7 @@
            
             <div class="content__boxed w-100 min-vh-100 d-flex flex-column align-items-center justify-content-center">
                 <div class="content__wrap col-12 col-sm-8 col-md-6 col-lg-4 col-xl-3">
-                    <h1 class="text-center">SGRD V 2.0</h1>
+                    <h1 class="text-center">SGRD VERSION 2.0</h1>
                     <!-- Login card -->
                     <div class="card shadow-lg ">
                         <div class="card-body">
